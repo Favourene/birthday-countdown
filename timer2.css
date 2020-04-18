@@ -1,7 +1,4 @@
-@font-face{
-    font-family: myfont;
-    src: url(digital.ttf);
-}
+
 
 body{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.jpg);
