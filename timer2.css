@@ -1,0 +1,98 @@
+@font-face{
+    font-family: myfont;
+    src: url(digital.ttf);
+}
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+.x{
+    font-size: 40px;
+    color: lime;
+    text-align: center;
+}
+.num{
+    font-family: myfont;
+    padding-right: 80px;
+    font-size: 180px;
+    background: -webkit-linear-gradient(-45deg, #ee7752, #fc78aa, #46e423, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: change 10s ease-in-out infinite;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 50px;
+    }
+    .num{
+        font-size: 120px;
+    }
+}
+span{
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%,100%{
+        color: white;
+        
+    }
+    5%,95%{
+        color: rgb(80, 235, 113);
+        
+    }
+    10%,90%{
+        color: rgb(233, 31, 31);
+        
+    }
+    15%,85%{
+        color: rgb(206, 29, 212);
+        
+    }
+    20%,80%{
+        color: rgb(228, 70, 144);
+        
+    }
+    25%,75%{
+        color: rgb(66, 209, 245);
+        
+    }
+    30%,70%{
+        color: rgb(60, 235, 89);
+        
+    }
+    35%,65%{
+        color: rgb(129, 28, 245);
+        
+    }
+    40%,60%{
+        color: rgb(247, 100, 112);
+        
+    }
+    45%,55%{
+        color: rgb(31, 206, 250);
+        
+    }
+    50%,50%{
+        color: rgb(60, 136, 235);
+        
+    }
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
