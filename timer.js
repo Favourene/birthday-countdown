@@ -2,7 +2,7 @@ window.onload = function(){
 function countDown(){
     var today = new Date(); // gets time from the device
 
-    var  eventdate = new Date ("April  25,2020 00:00:00"); //this is the day i want the count down to  end
+    var  eventdate = new Date ("April  25,2021 00:00:00"); //this is the day i want the count down to  end
 
     var currenttime = today.getTime();
 
